@@ -1,0 +1,41 @@
+body {
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8a8fa3;
+}
+
+.navigation {
+    -webkit-box-shadow: 0 0 29px 0 rgba(134, 134, 134, .25);
+    -moz-box-shadow: 0 0 29px 0 rgba(134, 134, 134, .25);
+    box-shadow: 0 0 29px 0 rgba(134, 134, 134, .25);
+    padding: 30px 0;
+    background-color: #fff;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
+.navigation .navbar {
+    padding: 0;
+    position: relative;
+}
+
+.navigation .navbar .navbar-nav .nav-item {
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+.navigation .navbar .navbar-nav .nav-item a {
+    color: #8a8fa3;
+    font-size: 15px;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.navigation .navbar .navbar-nav .nav-item a:hover {
+    transition: .5s;
+    color: #754ef9;
+}
