@@ -551,3 +551,46 @@ p {
     transition: all 2s ease-out 0s;
     width: 0;
 }
+
+
+/* section service */
+
+.single-service {
+    background-color: #fff;
+    border: 1px solid #eceff8;
+    border-radius: 5px;
+    padding: 25px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.single-service:hover {
+    -webkit-box-shadow: 0 0 21px 0 rgba(152, 152, 152, .23);
+    -moz-box-shadow: 0 0 21px 0 rgba(152, 152, 152, .23);
+    box-shadow: 0 0 21px 0 rgba(152, 152, 152, .23)
+}
+
+.single-service i {
+    font-size: 60px;
+    color: #754ef9;
+    line-height: 56px;
+}
+
+.single-service a {
+    font-size: 22px;
+    font-weight: 600;
+    color: #32333c;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.single-service a:hover {
+    color: #754ef9;
+}
