@@ -594,3 +594,26 @@ p {
 .single-service a:hover {
     color: #754ef9;
 }
+
+
+/* section call-to-action  */
+
+.call-to-action {
+    position: relative;
+    z-index: 9;
+}
+
+.bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.call-to-action .action-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    padding-bottom: 30px;
+}
