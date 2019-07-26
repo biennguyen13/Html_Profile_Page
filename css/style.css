@@ -904,3 +904,70 @@ p {
 
 
 /* end section pricing */
+
+
+/* start section my blog */
+
+.blog-area .single-blog {
+    position: relative;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
+.blog-area .single-blog .blog-image {
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.blog-area .single-blog .blog-content {
+    position: absolute;
+    margin: 5px;
+    bottom: 0;
+    padding: 25px;
+    background-color: #4ec8f993
+}
+
+.blog-area .single-blog .blog-content .blog-title a {
+    color: white;
+}
+
+.blog-area .single-blog .blog-content span {
+    color: white;
+}
+
+.blog-area .single-blog .blog-image img {
+    width: 100%;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
+.blog-area .single-blog:hover .blog-image img {
+    transform: scale(1.2);
+}
+
+.blog-area .single-blog:hover .blog-content {
+    background-color: #764ef9b4;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
+.blog-area .single-blog:hover {
+    transform: scale(1.1);
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
+
+/* end section my blog */
