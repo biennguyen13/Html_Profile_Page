@@ -961,7 +961,7 @@ p {
 }
 
 .blog-area .single-blog:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -971,3 +971,165 @@ p {
 
 
 /* end section my blog */
+
+
+/* start section Get In Touch */
+
+.contact-area .contact-box {
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    border-radius: 3px;
+}
+
+.contact-area .contact-box:hover {
+    -webkit-box-shadow: 0 0 29px 0 rgba(134, 134, 134, .25);
+    -moz-box-shadow: 0 0 29px 0 rgba(134, 134, 134, .25);
+    box-shadow: 0 0 29px 0 rgba(134, 134, 134, .25);
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
+.contact-area .contact-box .box-icon {
+    color: #754ef9;
+    font-size: 50px;
+}
+
+.contact-area .contact-box .box-content .content-title {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.contact-area #contact-form .form-input input,
+.contact-area #contact-form .form-input textarea {
+    width: 100%;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 55px;
+    color: #8a8fa3;
+}
+
+.contact-area #contact-form .form-input textarea {
+    height: 135px;
+    padding-top: 10px;
+    resize: none;
+}
+
+.contact-area #contact-form .form-input input:focus,
+.contact-area #contact-form .form-input textarea:focus,
+.contact-area #contact-form .form-input input:hover,
+.contact-area #contact-form .form-input textarea:hover {
+    border: 1px solid #754ef9;
+}
+
+.contact-area .contact-map {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fbfbfb;
+    -webkit-box-shadow: 0 0 12px 0 rgba(152, 152, 152, .46);
+    -moz-box-shadow: 0 0 12px 0 rgba(152, 152, 152, .46);
+    box-shadow: 0 0 12px 0 rgba(152, 152, 152, .46);
+}
+
+
+/* end section Get In Touch */
+
+
+/* footer */
+
+.footer-content {
+    background-color: #152136;
+}
+
+.footer-content .content-about p {
+    color: #fefefe;
+}
+
+.footer-content .content-about ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-content .content-about ul li a {
+    background-color: #1c2940;
+    border: 1px solid #1c2940;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    line-height: 80px;
+    color: #bebebe;
+    font-size: 30px;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
+.footer-content .content-about ul li a:hover {
+    background-color: #754ef9;
+    color: #fefefe;
+    border-radius: 40%;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
+@media (max-width: 767px) {
+    .footer-content .content-about ul li a {
+        width: 52px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-content .content-about ul li {
+        margin: 0 7px;
+    }
+}
+
+.footer-content .footer-content-2 {
+    line-height: 65px;
+    text-align: center;
+    background-color: #1c2940;
+    color: #fefefe;
+}
+
+
+/* back-to-top */
+
+.back-to-top {
+    font-size: 20px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 46px;
+    border-radius: 50%;
+    border: 2px solid #586376;
+    background-color: #152136;
+    text-align: center;
+    z-index: 99;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    display: none;
+}
