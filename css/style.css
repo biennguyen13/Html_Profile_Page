@@ -157,6 +157,15 @@ p {
     transition: all .3s ease-out 0s;
 }
 
+.navigation.sticky {
+    padding: 20px 0;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
+
 .navigation .navbar {
     padding: 0;
     position: relative;
@@ -187,23 +196,21 @@ p {
 
 .navigation .navbar .navbar-nav .nav-item {
     margin-left: 30px;
+    box-sizing: border-box;
 }
 
-
-/* 
-.navigation .navbar .navbar-nav .nav-item a {
-    color: #8a8fa3;
-    font-size: 15px;
-    font-weight: 550;
-    text-decoration: none;
-} */
+@media (max-width: 767px) {
+    .navigation .navbar .navbar-nav .nav-item {
+        margin: 4px 0;
+    }
+}
 
 .navigation .navbar .navbar-nav .nav-item a {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 15px;
     color: #8a8fa3;
-    font-weight: 500;
     position: relative;
+    font-weight: 550;
     -webkit-transition: all .3s ease-out 0s;
     -moz-transition: all .3s ease-out 0s;
     -ms-transition: all .3s ease-out 0s;
@@ -211,12 +218,35 @@ p {
     transition: all .3s ease-out 0s;
 }
 
+.navigation .navbar .navbar-nav .nav-item.active a,
 .navigation .navbar .navbar-nav .nav-item a:hover {
     color: #754ef9;
 }
 
+.navigation .navbar .navbar-nav .nav-item a::before {
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 0;
+    background-color: #754ef9;
+    left: 50%;
+    top: -50px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+}
 
-/* waiting for main.js */
+.navigation .navbar .navbar-nav .nav-item.active a::before,
+.navigation .navbar .navbar-nav .nav-item a:hover::before {
+    height: 45px;
+}
 
 .navigation .navbar .navbar-toggler.active .toggler-icon:nth-of-type(1) {
     -webkit-transform: rotate(45deg);
@@ -239,9 +269,6 @@ p {
     transform: rotate(135deg);
     top: -7px
 }
-
-
-/* waiting for main.js */
 
 
 /*header-content*/
