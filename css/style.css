@@ -1,3 +1,7 @@
+html {
+    /* scroll-behavior: smooth; */
+}
+
 body {
     font-family: poppins, sans-serif;
     font-weight: 400;
@@ -280,6 +284,13 @@ p {
     position: relative;
     overflow: hidden;
     background-color: #fbfbfb;
+    background-image: linear-gradient(to right, rgba(125, 225, 255, 0.322), rgba(121, 255, 210, 0.432), rgba(140, 255, 111, 0.753), rgba(52, 116, 0, 0.288));
+}
+
+@media (max-width: 767px) {
+    .header-content {
+        background-image: linear-gradient(to bottom, rgba(125, 225, 255, 0.322), rgba(121, 255, 210, 0.432), rgba(140, 255, 111, 0.753), rgba(52, 116, 0, 0.288));
+    }
 }
 
 .header-content .header-shape {
@@ -369,7 +380,7 @@ p {
 }
 
 .header-content-right .title {
-    font-size: 60px;
+    font-size: 55px;
     text-transform: uppercase;
     padding-bottom: 15px;
 }
@@ -439,10 +450,10 @@ p {
 
 .header-social .header-social-icon ul li a {
     color: #ccc;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
     border-radius: 50%;
     border: 1px solid #ccc;
     -webkit-transition: all .3s ease-out 0s;
@@ -455,7 +466,7 @@ p {
 
 .header-social .header-social-icon ul li a:hover {
     color: #fff;
-    background-color: #754ef9;
+    background-color: #764ef970;
     border-color: #754ef9
 }
 
@@ -599,6 +610,7 @@ p {
 /* section service */
 
 .single-service {
+    position: relative;
     background-color: #fff;
     border: 1px solid #eceff8;
     border-radius: 5px;
@@ -611,6 +623,7 @@ p {
 }
 
 .single-service:hover {
+    transform: scale(1.025);
     -webkit-box-shadow: 0 0 21px 0 rgba(152, 152, 152, .23);
     -moz-box-shadow: 0 0 21px 0 rgba(152, 152, 152, .23);
     box-shadow: 0 0 21px 0 rgba(152, 152, 152, .23)
