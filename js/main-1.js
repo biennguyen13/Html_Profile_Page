@@ -49,4 +49,6 @@
         }, { accY: 0 });
     }
 
+    ScrollReveal().reveal($('section'), { delay: 1000 });
+
 }(jQuery));
