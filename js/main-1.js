@@ -107,7 +107,7 @@
     }
     Progress_Line();
 
-    var a = $('.about-content .about-title').parentsUntil('.container');
+    var a = $('.about-content .about-title').parent();
     console.log(a);
 
     // scroll reveal js
